@@ -1,0 +1,54 @@
+/* The recipe table */
+
+#recipe-table {
+}
+
+#recipe-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#recipe-table table {
+}
+
+.recipe-title { /* The spans that display "Required Materials" and "Crafted With" */
+}
+
+.craft-arrow {
+	display: inline-block;
+	background: url(../images/craft-arrow.png);
+	width: 50px;
+	height: 50px;
+}
+
+/*
+There is also a recipe-table class, .recipe-table. It is the interior that displays the gray background and borders. I did not include it here, but if you want to over-ride
+the border or colors for that table, use !important as the style for that table is on the page itself.
+*/
+
+/* The stat table */
+
+#stat-table {
+}
+
+.stat-name { /* The stat names such as "Health", "Armor", "Durability" on the stat table */
+}
+
+/* The Sources Table */
+
+#source-table {
+}
+
+.source-title { /* The "Sources" text */
+}
+
+a.sourcelink {
+	display: inline-block; 
+	min-height: 25px; 
+	min-width: 25px;
+}
+
+a.sourcelink img {
+	max-width: 25px;
+	max-height: 25px;
+}
